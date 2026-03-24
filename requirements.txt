@@ -1,0 +1,9 @@
+tensorflow
+numpy
+matplotlib
+scikit-learn
+seaborn
+flask
+pillow
+werkzeug
+joblib

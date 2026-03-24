@@ -1,44 +1,35 @@
-# Fake Currency Detection System
+# AI Currency Sentinel | Fake Currency Detection System
 
-This project is a web-based application for detecting fake currency using a Deep Learning CNN model (MobileNetV2).
+An advanced, glassmorphism-styled web application for real-time fake currency detection using **Random Forest** and **MobileNetV2** validation.
 
-## Technologies Used
-- **Python 3.10**
-- **TensorFlow / Keras** (Deep Learning)
-- **Flask** (Web Backend)
-- **HTML/CSS/JavaScript** (Frontend)
+## 🚀 Technologies Used
+- **Python 3.10**: Stable neural processing.
+- **TensorFlow / Keras**: MobileNetV2 for image validation.
+- **Scikit-Learn**: Random Forest for currency classification.
+- **Flask**: Secure web backend.
+- **Glassmorphism UI**: High-end modern frontend with CSS variables and font-awesome icons.
 
-## Project Structure
-- `dataset/`: Folder for training images (Real/Fake).
-- `static/`: CSS and JavaScript files.
-- `templates/`: HTML templates.
-- `app.py`: Flask application server.
-- `train_currency_model.py`: Script to train the model.
-- `requirements.txt`: List of dependencies.
-- `currency_model.h5`: The trained model file (generated after training).
+## 📂 Project Structure
+- `archive/data/data/`: Structured dataset for training (Real/Fake).
+- `static/`: Modern CSS glassmorphism styles and JavaScript scanner logic.
+- `templates/`: HTML5 semantic templates.
+- `app.py`: Flask application with specialized endpoints for retraining.
+- `train_currency_model.py`: Training script for Random Forest model.
+- `run.bat`: **One-Click Start Script** for Windows users.
 
-## Setup Instructions
+## 🔨 Setup & Run
 
-1.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+1.  **Start Application:**
+    Double-click [run.bat](file:///c:/Users/AMIT/OneDrive/Desktop/Fake_currency/run.bat). This will automatically set up the environment and start the server.
+    
+2.  **Access the App:**
+    Open your browser and navigate to:
+    👉 **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
-2.  **Train the Model (If not already trained):**
-    Ensure you have `dataset/Real` and `dataset/Fake` folders with images.
-    ```bash
-    python train_currency_model.py
-    ```
+## 🧠 Smart Learning Features
+This system includes a unique **Refinement System**:
+- If the AI misidentifies a note, you can mark it as **"Actually Real"** or **"Actually Fake"** directly in the UI.
+- Click **"Update AI Model"** to retrain the neural intelligence with your specific camera photos.
 
-3.  **Run the Web App:**
-    ```bash
-    python app.py
-    ```
-
-4.  **Access the App:**
-    Open your browser and go to: `http://127.0.0.1:5000`
-
-## Features
-- **Image Upload:** Upload a photo of a currency note to check it.
-- **Webcam Support:** Use your webcam to scan a note in real-time.
-- **Instant Analysis:** Get immediate "Real" or "Fake" results with confidence scores.
+## ⚙️ Requirements
+All required Python libraries are listed in `requirements.txt`.

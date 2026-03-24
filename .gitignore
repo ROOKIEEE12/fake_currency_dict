@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# ML Models (Too large for GitHub standard storage)
+*.pkl
+*.h5
+*.model
+
+# Uploads & Dataset (Too large for GitHub)
+archive/
+uploads/
+**/custom/
+
+# IDE settings
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
